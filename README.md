@@ -65,6 +65,11 @@ Params:
 #### -debug
 开启debug模式,运行过程会输出debug信息
 
+## 下载
+```
+go get github.com/Hyaaaaa/yuhScan
+```
+
 ## 编译
 ```
 sh build.sh
