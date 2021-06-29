@@ -59,7 +59,7 @@ func Usage() {
             _   _____             
     _ _ _ _| |_|   __|___ ___ ___     v1.0
    | | | | |   |__   |  _| .'|   |    
-   |_  |___|_|_|_____|___|__,|_|_|    GitHub: https://github.com/Hyaaaaa/yuhScan
+   |_  |___|_|_|_____|___|__,|_|_|    GitHub: https://github.com/hunyaio/yuhScan
    |___|                              
 
 Usage: yuhScan <-u URL>/<-uf URLFile,[-group GroupNum]> <-f File> [options]
