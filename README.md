@@ -74,7 +74,7 @@ go get github.com/hunyaio/yuhScan
 ```
 sh build.sh
 ```
-需要Go环境，MacOS/Linux可直接执行编译脚本，Windows可通过Git Bash执行编译脚本
+需要Go环境在`GOPATH`下编译，MacOS/Linux可直接执行编译脚本，Windows可通过Git Bash执行编译脚本
 
 ## 最后
 纪念曾经在「玉衡」的一众一起学习和摸鱼的时光
