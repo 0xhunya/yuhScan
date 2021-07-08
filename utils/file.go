@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"yuhScan/logger"
+	"github.com/hunyaio/yuhScan/logger"
 )
 
 func FileExits(file string) bool {

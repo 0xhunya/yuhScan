@@ -4,11 +4,11 @@ import (
 	"flag"
 	"sync"
 
-	"yuhScan/cmd"
-	"yuhScan/core"
-	"yuhScan/logger"
-	"yuhScan/types"
-	"yuhScan/utils"
+	"github.com/hunyaio/yuhScan/cmd"
+	"github.com/hunyaio/yuhScan/core"
+	"github.com/hunyaio/yuhScan/logger"
+	"github.com/hunyaio/yuhScan/types"
+	"github.com/hunyaio/yuhScan/utils"
 )
 
 var (

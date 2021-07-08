@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"yuhScan/logger"
-	"yuhScan/utils"
+	"github.com/hunyaio/yuhScan/logger"
+	"github.com/hunyaio/yuhScan/utils"
 )
 
 type Config struct {

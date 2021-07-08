@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"yuhScan/logger"
+	"github.com/hunyaio/yuhScan/logger"
 )
 
 // 禁用跳转

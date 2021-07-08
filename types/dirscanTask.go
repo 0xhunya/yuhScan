@@ -1,8 +1,8 @@
 package types
 
 import (
-	"yuhScan/logger"
-	"yuhScan/utils"
+	"github.com/hunyaio/yuhScan/logger"
+	"github.com/hunyaio/yuhScan/utils"
 )
 
 type DirScanTask struct {

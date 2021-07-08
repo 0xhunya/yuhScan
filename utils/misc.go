@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"yuhScan/logger"
+	"github.com/hunyaio/yuhScan/logger"
 )
 
 func CheckURL(url string) bool {

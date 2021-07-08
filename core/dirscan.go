@@ -4,9 +4,9 @@ import (
 	"strings"
 	"sync"
 
-	"yuhScan/logger"
-	"yuhScan/types"
-	"yuhScan/utils"
+	"github.com/hunyaio/yuhScan/logger"
+	"github.com/hunyaio/yuhScan/types"
+	"github.com/hunyaio/yuhScan/utils"
 )
 
 func makeTask(pool *types.Pool, cfg types.Config, payloadsCut [][]string, last []string) {

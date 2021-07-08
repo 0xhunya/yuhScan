@@ -3,7 +3,7 @@ package types
 import (
 	"time"
 
-	"yuhScan/logger"
+	"github.com/hunyaio/yuhScan/logger"
 )
 
 type Worker interface {

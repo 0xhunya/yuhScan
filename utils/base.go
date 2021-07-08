@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"yuhScan/logger"
+	"github.com/hunyaio/yuhScan/logger"
 )
 
 func Sum(a int, b int) int {
