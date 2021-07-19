@@ -20,7 +20,7 @@ func NewHttpClient(proxyUrl string) *http.Client {
 		proxy, _ := url.Parse(proxyUrl)
 		return &http.Client{
 			CheckRedirect: redirectPolicyFunc,
-			Timeout:       time.Second * 5,
+			Timeout:       time.Second * 10,
 			Transport: &http.Transport{
 				Proxy:           http.ProxyURL(proxy),
 				TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
@@ -29,7 +29,7 @@ func NewHttpClient(proxyUrl string) *http.Client {
 	} else {
 		return &http.Client{
 			CheckRedirect: redirectPolicyFunc,
-			Timeout:       time.Second * 5,
+			Timeout:       time.Second * 10,
 			Transport: &http.Transport{
 				TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 			},
